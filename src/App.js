@@ -4,7 +4,6 @@ import './App.css';
 import {AppBar} from './components/AppBar';
 import { Carousel } from './components/Carousel';
 import { Secciones } from './components/Secciones';
-import { GridItems } from './components/GridItems';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <AppBar />
       <Carousel />
       <Secciones />
-      <GridItems />
     </div>
   );
 }
